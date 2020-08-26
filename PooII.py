@@ -28,8 +28,11 @@ print(miCoche.arrancar(True))
 
 miCoche.estado()
 
+print(" ")
+
 print("------A continuación creamos el segundo objeto------")
 
+print(" ")
 miCoche2 = Coche()
 
 print(miCoche2.arrancar(False))
