@@ -37,5 +37,6 @@ miCoche2 = Coche()
 
 print(miCoche2.arrancar(False))
 print("Pequeñas pruebas de workteam")
+print("Nueva prueba: Cumplí 28")
 
 miCoche2.estado()
