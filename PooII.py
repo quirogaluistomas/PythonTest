@@ -4,7 +4,7 @@ class Coche():
         self.__largoChasis = 250
         self.__anchoChasis = 120
         self.__ruedas = 4
-        self.__enMarcha = False
+        self.__enMarcha = True
         #Se ponen 2 guiones bajos para encapsular y no se puede acceder desde afuera salvo desde
         #adentro, es decir desde un metodo o comportamiento
 
@@ -36,5 +36,7 @@ print(" ")
 miCoche2 = Coche()
 
 print(miCoche2.arrancar(False))
+print("Pequeñas pruebas de workteam")
+print("Nueva prueba: Cumplí 28")
 
 miCoche2.estado()
