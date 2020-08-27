@@ -36,5 +36,6 @@ print(" ")
 miCoche2 = Coche()
 
 print(miCoche2.arrancar(False))
+print("Pequeñas pruebas de workteam")
 
 miCoche2.estado()
