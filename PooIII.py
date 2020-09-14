@@ -46,8 +46,10 @@ class Moto(Vehiculos):
          "\nAcelerando: ", self.acelera, "\nFrenando: ", self.frena, "\n" + self.hCaballito)
 
 
-class VElectricos():
-    def __init__(self):
+class VElectricos(Vehiculos):
+    def __init__(self,marca,modelo):
+
+        super().__init__(marca,modelo)
         self.autonomia = 100
 
     def cargarEnergia(self):
@@ -74,4 +76,6 @@ class BicicletaElectrica(VElectricos, Vehiculos):
     pass
 
 
-miBici = BicicletaElectrica()
+miBici = BicicletaElectrica("Orbea", "hp1500")
+
+#Como accedemos a las propiedades de la clase de la que hereda? Se ve en el script HerenciaSuper
